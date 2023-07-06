@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* universal css(css for whole page) */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html{
+    width: 100vw;
+    height: 100vh;
+    background-color: #b8e0f6;
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* css for container class */
+.container{
+    background-color: #fff;
+    width: 70%;
+    margin: 20px 12rem;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.2);
+}
+
+/* css for section1 element start here */
+.section1 > #logo{
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+    border: 1.5px solid rgb(32, 178, 127);
+    margin-top: -20px;
+}
+
+.section1 #user_name{
+    color: dodgerblue;
+    letter-spacing: 2px;
+}
+
+.indication{
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    margin: 10px 0;
+}
+
+#textbox{
+    border: 1px solid grey;
+    border-radius: 5px;
+    width: 80%;
+}
+
+#textbox, .btn{
+    height: 30px;
+    font-size: 1rem;
+    padding: 5px 15px;
+    margin: 10px 0;
+}
+
+.btn{
+    background-color:dodgerblue;
+    border: none;
+    outline: 1px solid dodgerblue;
+    border-radius: 3px;
+    color: #fff;
+    transition: 0.2s;
+}
+
+.btn:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+/* css for section1 element end here */
+
+/* css for section2 element start here */
+.section2 > h1{
+    color: dodgerblue;
+    margin: 20px 0;
+    letter-spacing: 0.5px;
+}
+
+.category_btn{
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 30px;
+    column-gap: 30px;
+}
+
+.subject_btn{
+    background-color: rgba(180, 216, 228, 0.633);
+    padding: 10px 0;
+    border: 2px solid dodgerblue;
+    border-radius: 10px;
+    color: grey;
+    font-size: 1.2rem;
+    letter-spacing: 0.5px;
+}
+
+.subject_btn:hover{
+    background-color: dodgerblue;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* css for section2 element end here */

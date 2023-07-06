@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="./scoreCard.css">
+    <link rel="icon" type="image" href="../images/favicon_skd.png">
+</head>
+<body>
+    <div class="container">
+        <h1>Quiz Result</h1>
+        <div class="content">
+            <p><span id="name"></span> your result is :</p>
+            <p>Total Time Taken : <span id="seconds">42</span> seconds</p>
+            <p>Total Question : <span>10</span></p>
+            <p>Attempt : <span>10</span></p>
+            <p>Correct : <span id="correct">0</span></p>
+            <p>Wrong : <span id="wrong">0</span></p>
+            <p>Percentage : <span id="percentage"></span><b>.00%</b></p>
+        </div>
+        <div class="startAndgoTo">
+            <button class="score_btn" id="btnToRestart">Start Again</button>
+            <button class="score_btn" id="btnTohome">Go To Home</button>
+        </div>
+    </div>
+
+    <script src="./scoreCard.js"></script>
+</body>
+</html>

@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* universal css(css for whole page) */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html{
+    width: 100vw;
+    height: 100vh;
+    background-color: #b8e0f6;
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* container css start here */
+.container{
+    background-color: #fff;
+    width: 70%;
+    margin: 20px 12rem;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.2);
+}
+
+.container h1{
+    color: dodgerblue;
+    letter-spacing: 2px;
+    font-size: 3rem;
+}
+/* container css end here */
+
+/* content css start here */
+.content{
+    /* letter-spacing: 2px; */
+    font-size: 2rem;
+    margin: 10px 0;
+}
+
+p > span{
+    font-weight: 1000;
+}
+/* content css end here */
+
+/* button css star here */
+.score_btn{
+    padding: 15px 50px;
+    border: none;
+    background-color: dodgerblue;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    color: azure;
+}
+
+.startAndgoTo{
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+}
+
+.score_btn:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+/* button css end here */

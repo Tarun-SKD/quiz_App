@@ -1,0 +1,46 @@
+<!DOCTYPE html/>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" type="image" href="../images/favicon_skd.png">
+   
+</head>
+<body>
+    <!-- container start here -->
+    <div class="container">
+        <!-- section1 start here -->
+            <div class="section1">
+            <img id="logo" src="../images/favicon_skd.png">
+
+        <h1 id="user_name">Hello <span id="name_greeting">user</span>!</h1>
+        <h4 class="indication">Enter your name to continue the Quiz.</h4>
+        <form>
+        <input type="text" id="textbox" placeholder="ENTER YOUR NAME" value="">
+        <button type="submit" onclick="myFunction()" id="submit_name" class="btn">ENTER</button>
+        </form>
+        <p style="color: grey; letter-spacing: 1px; margin: 10px 0;">You'll have 60 seconds to answer each questions</p>
+        </div>
+        <!-- section1 end here -->
+        <hr style="color: grey">  <!-- this is divider line between section1 & section2 -->
+
+        <!-- section2 start here -->
+        <div class="section2">
+            <h1>Select Category</h1>
+            <div class="category_btn">
+                    <button id="box1" class="subject_btn">Pipes And Cirsterns</button>
+                    <button id="box2" class="subject_btn">Probaility</button>
+                    <button id="box3" class="subject_btn">Problem On Ages</button>
+                    <button  id="box4" class="subject_btn">Profit And Loss</button>
+            </div>
+        </div>
+        <!-- section2 end here -->
+    </div>
+    <!-- container end here -->
+
+    <script src="./script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* universal css(css for whole page) */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html{
+    width: 100vw;
+    height: 100vh;
+    background-color: #b8e0f6;
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* css for main_container */
+.main_container{
+    background-color: #fff;
+    width: 70%;
+    margin: 20px 12rem;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.2);
+}
+
+/* css for time and score start here */
+.timer_And_score{
+    display: flex;
+    justify-content: space-between;
+}
+
+.timer_And_score > #timer{
+    border: 2px solid dodgerblue;
+    padding: 8px;
+    border-radius: 50%;
+    font-weight: 800;
+}
+
+.timer_And_score #score{
+    font-weight: 800;
+    font-size: 18px;
+}
+/* css for time and score end here */
+
+
+/* css for question box */
+#questions{
+    border: 2px solid rgb(223, 162, 138);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 50px 0;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+/* option button css start here */
+.option_btn{
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 30px;
+    column-gap: 30px;
+}
+
+.options{
+    background-color: azure;
+    color: dodgerblue;
+    padding: 15px 0;
+    border: 2px solid dodgerblue;
+    border-radius: 50px;
+    font-size: 1.2rem;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+}
+
+/* option button css end here */
+
+/* next button css */
+#next_btn{
+    background-color: dodgerblue;
+    border: none;
+    padding: 15px 70px;
+    border-radius: 50px;
+    margin: 0 auto;
+    margin-top: 30px;
+    font-size: 1.2rem;
+    color: #fff;
+    cursor: pointer;
+}
